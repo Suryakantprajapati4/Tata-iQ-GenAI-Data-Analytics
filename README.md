@@ -42,7 +42,7 @@ Task 1: Exploratory Data Analysis (EDA)
 Objective: Uncover hidden patterns in customer repayment behavior and identify risk indicators.
 
 Actions: Cleaned and analyzed historical customer data. Evaluated correlations between demographic details, income, and default rates.
-![EDA Graph](images/eda_graph.png)
+![EDA Graph](image/eda_graph.png)
 
 Key Insight: Discovered that traditional metrics (like pure income) had near-zero linear correlation with default risk. Instead, risk was heavily concentrated in specific behavioral patterns.
 
@@ -64,7 +64,7 @@ Task 4: AI-Powered Collections Strategy (Agentic AI)
 Objective: Design an autonomous system to execute the targeted interventions at scale.
 
 Actions: Developed a high-level presentation outlining an Agentic AI workflow.
-![AI Strategy Slide](images/ai_strategy.png)
+![AI Strategy Slide](image/ai_strategy.png)
 
 System Features:
 
