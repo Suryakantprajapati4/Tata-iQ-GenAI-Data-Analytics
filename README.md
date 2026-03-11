@@ -41,7 +41,8 @@ Objective: Uncover hidden patterns in customer repayment behavior and identify r
 
 Actions: Cleaned and analyzed historical customer data. Evaluated correlations between demographic details, income, and default rates.
 
-<img width="898" height="669" alt="eda_graph" src="https://github.com/user-attachments/assets/5a423b74-e759-46fb-9681-aedd856611a8" />
+![ai_strategy](https://github.com/user-attachments/assets/ee8e3927-fd00-4d96-a938-9c7e8a206e9e)
+
 
 Key Insight: Discovered that traditional metrics (like pure income) had near-zero linear correlation with default risk. Instead, risk was heavily concentrated in specific behavioral patterns.
 Task 2: Predictive Modeling (Decision Tree Architecture)
