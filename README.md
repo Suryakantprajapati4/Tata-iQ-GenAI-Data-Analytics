@@ -1,79 +1,162 @@
-# Tata iQ - Data Analytics & Generative AI Virtual Internship 🚀
+# Tata iQ GenAI Data Analytics Project
 
-## 📌 Project Overview
-This repository showcases my work completed during the **Tata iQ Virtual Internship**. The project focuses on helping a fictional financial institution, Geldium, modernize and optimize its credit card collections strategy. 
+## Project Overview
 
-By bridging the gap between raw data analysis and strategic decision-making, this project transitions from traditional, reactive debt collection to a proactive, **Agentic AI-powered debt-management system**. The goal was to maximize operational efficiency while maintaining ethical fairness, regulatory compliance, and customer trust.
+This project demonstrates an end-to-end data science workflow for **credit risk analysis and AI-driven collections strategy**.
+It combines **Exploratory Data Analysis, Predictive Modeling, and Responsible AI strategy design** to help financial institutions proactively identify and assist high-risk customers.
 
 ---
 
-## 📂 Repository Structure & Files
+## Project Structure
 
-Here is a breakdown of the folders and the specific files included in this project:
-
-```text
-📁 Tata-iQ-GenAI-Data-Analytics
+```
+Tata-iQ-GenAI-Data-Analytics
 │
-├── 📁 Task-1-EDA
-│   └── 📄 EDA_Credit_Risk_Analysis.ipynb   # Python notebook containing data cleaning & visualization
+├── Task-1-EDA
+│   └── EDA_Credit_Risk_Analysis.ipynb
 │
-├── 📁 Task-2-Model-Architecture
-│   └── 📄 Predictive_Model_Decision_Tree.ipynb  # ML model logic for predicting delinquency
+├── Task-2-Model-Architecture
+│   └── Predictive_Model_Decision_Tree.ipynb
 │
-├── 📁 Task-3-Data-Storytelling
-│   └── 📄 Geldium_Business_Summary_Report.pdf   # 2-page executive summary & SMART recommendations
+├── Task-3-Data-Storytelling
+│   └── Geldium_Business_Summary_Report.pdf
 │
-└── 📁 Task-4-AI-Collections-Strategy
-    └── 📄 Tata_iQ_Agentic_AI_Strategy_Deck.pdf  # Final presentation on AI architecture & guardrails
+└── Task-4-AI-Collections-Strategy
+    └── Tata_iQ_Agentic_AI_Strategy_Deck.pdf
+```
 
-🛠️ Key Skills & Technologies Demonstrated
-Data Science & ML: Exploratory Data Analysis (EDA), Predictive Modeling, Decision Trees, Feature Engineering.
+---
 
-Programming & Tools: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
+## Key Skills & Technologies
 
-Business Acumen: Data Storytelling, KPI Tracking, SMART Goal Setting, Cross-functional Communication.
+**Data Science & Machine Learning**
 
-Responsible AI: Agentic AI Frameworks, Bias Mitigation, Explainable AI (XAI), Regulatory Compliance (ECOA, GDPR, FCA).
+* Exploratory Data Analysis (EDA)
+* Predictive Modeling
+* Decision Trees
+* Feature Engineering
 
-🔍 Detailed Project Breakdown
-Task 1: Exploratory Data Analysis (EDA)
-Objective: Uncover hidden patterns in customer repayment behavior and identify risk indicators.
+**Programming & Tools**
 
-Actions: Cleaned and analyzed historical customer data. Evaluated correlations between demographic details, income, and default rates.
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-<img src="image/eda_graph.png" width="700">
-<br><br>
-<img src="image/ai_strategy.png" width="700">
+**Business & Strategy**
 
-Key Insight: Discovered that traditional metrics (like pure income) had near-zero linear correlation with default risk. Instead, risk was heavily concentrated in specific behavioral patterns.
-Task 2: Predictive Modeling (Decision Tree Architecture)
-Objective: Design a transparent machine learning model to predict imminent credit card delinquency.
+* Data Storytelling
+* KPI Tracking
+* SMART Goal Framework
+* Cross-functional Communication
 
-Actions: Selected a Decision Tree framework over opaque models to ensure high explainability.
+**Responsible AI**
 
-Key Insight: Identified that a compounded profile of High Credit Utilization (>70%) combined with 2+ consecutive missed payments serves as the strongest predictor of imminent default.
+* Agentic AI Systems
+* Bias Mitigation
+* Explainable AI (XAI)
+* Regulatory Compliance (ECOA, GDPR, FCA)
 
-![ai_strategy](https://github.com/user-attachments/assets/ee8e3927-fd00-4d96-a938-9c7e8a206e9e)
+---
 
-Task 3: Business Strategy & Data Storytelling
-Objective: Translate complex predictive model outputs into actionable business strategies for non-technical stakeholders.
+## Project Breakdown
 
-Actions: Drafted a 2-page executive business report.
+### Task 1 – Exploratory Data Analysis
 
-Recommendation: Proposed shifting from reactive collections to a proactive financial coaching and debt-restructuring program, utilizing a SMART framework specifically targeted at the highest-risk behavioral segment.
+**Objective:**
+Identify patterns in customer repayment behavior and detect risk indicators.
 
-Task 4: AI-Powered Collections Strategy (Agentic AI)
-Objective: Design an autonomous system to execute the targeted interventions at scale.
+**Actions**
 
-Actions: Developed a high-level presentation outlining an Agentic AI workflow.
+* Cleaned and analyzed historical credit customer data
+* Built correlation and behavioral analysis visualizations
 
-System Features:
+**Key Insight**
 
-Continuous Learning Loop: The system adapts outreach cadence based on real-time customer engagement.
+Traditional financial metrics such as **income alone showed very weak correlation with default risk**.
+Instead, behavioral indicators like payment history and credit utilization were more predictive.
 
-Dynamic Triggers: Fully automated SMS for low-risk segments vs. Human-in-the-loop oversight for high-risk restructuring.
+---
 
-AI Guardrails: Embedded strict fairness checks and explainability protocols to ensure compliance with financial regulations.
+### Task 2 – Predictive Modeling (Decision Tree)
 
-🎯 Final Business Impact
-The implementation of this Agentic AI strategy is projected to reduce 30-day delinquency rates by 12%. By shifting the collections paradigm from punitive measures to proactive customer support, Geldium can significantly reduce bad debt, optimize the operational bandwidth of the collections team, and build long-term customer trust.
+**Objective:**
+Design an interpretable machine learning model to predict credit card delinquency.
+
+**Actions**
+
+* Implemented a **Decision Tree model** for high explainability
+* Analyzed feature importance for delinquency prediction
+
+**Key Insight**
+
+The strongest predictor of default risk was:
+
+High Credit Utilization (>70%)
++
+Multiple consecutive missed payments
+
+---
+
+### Task 3 – Business Strategy & Data Storytelling
+
+**Objective:**
+Translate technical model insights into actionable business strategies.
+
+**Actions**
+
+* Created a **2-page executive report**
+* Communicated findings to non-technical stakeholders
+
+**Recommendation**
+
+Shift from **reactive collections** to **proactive financial coaching and debt restructuring** using a SMART framework.
+
+---
+
+### Task 4 – AI-Powered Collections Strategy
+
+**Objective:**
+Design an **Agentic AI system** for automated and intelligent customer outreach.
+
+**Key Features**
+
+**Continuous Learning**
+
+* Adjusts outreach frequency based on customer response patterns
+
+**Dynamic Intervention**
+
+* Automated SMS for low-risk cases
+* Human-in-the-loop oversight for complex cases
+
+**Responsible AI Guardrails**
+
+* Fairness monitoring
+* Model explainability
+* Regulatory compliance
+
+---
+
+## Business Impact
+
+Implementing this AI-driven strategy could potentially:
+
+* Reduce **30-day delinquency rates by ~12%**
+* Improve operational efficiency for collections teams
+* Strengthen long-term customer relationships
+
+---
+
+
+![EDA Graph](image/eda_graph.png)
+
+![AI Strategy](image/ai_strategy.png)
+
+## Author
+
+**Suryakant Prajapati**
+B.Tech CSE (AI & Data Science)
+
+GitHub Portfolio Project
