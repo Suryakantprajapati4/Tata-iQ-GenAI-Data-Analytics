@@ -52,6 +52,8 @@ Actions: Selected a Decision Tree framework over opaque models to ensure high ex
 
 Key Insight: Identified that a compounded profile of High Credit Utilization (>70%) combined with 2+ consecutive missed payments serves as the strongest predictor of imminent default.
 
+![ai_strategy](https://github.com/user-attachments/assets/ee8e3927-fd00-4d96-a938-9c7e8a206e9e)
+
 Task 3: Business Strategy & Data Storytelling
 Objective: Translate complex predictive model outputs into actionable business strategies for non-technical stakeholders.
 
